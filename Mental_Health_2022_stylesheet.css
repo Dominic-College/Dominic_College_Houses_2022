@@ -14,42 +14,125 @@
 	text-shadow: 3px 3px 8px #000000;
 	font-size: 20px;
 	text-align: center;
-	margin: 30px;
+	margin: 25px 5px 10px 5px;
 }
 .video-section {
-	border: 3px solid red;
+	/*border: 2px solid red;*/
 	max-width: 49%;
-	height: 600px;
+	/*height: 400px;*/
 	display: inline-block;
-}
-.video-text {
-	display: inline-block;
-	max-width: 50%;
-	padding-right: 5%;
+	margin: 0 auto;
 	vertical-align: center;
 }
+.video-text {
+	margin-top: 15px;
+	display: inline-block;
+	width: 60%;
+	padding-right: 5%;
+	vertical-align: top;
+	padding: 15px;
+	/*border: 1px solid green;*/
+}
 .video-title {
-	color: #a2863d;
 	font-family: "trajan-pro-3";
-	text-shadow: 3px 3px 8px #000000;
+	text-shadow: 0px 2px 2px #1e345d;
 	text-align: center;
 	font-size: 30px;
+	margin-bottom: -10px;
+	background-color: rgba(177,198,231,1.00);
+	border-radius: 20px;
+	/*border: 2px solid yellow;*/
 }
 .video-notes {
-	
+	/*border: 1px solid pink;*/
+	margin-top: -10;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.3;
 }
-p {
+.video-notes-prayer {
+	/*border: 1px solid pink;*/
+	margin-top: -10;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+.bosco > .video-notes-prayer {
+	line-height: 5;
+}
+.sidebyside {
+	/*border: 1px solid white;*/
+	display: flex;
+	margin-bottom: 10px;
+}
+
+ul {
 	color: #FFFFFF;
 	font-family: "calibri";
 }
-video {
-	width: 20%;
+img {
+	width: 30%;
 	height: auto;
 	vertical-align: center;
 	margin: 0;
+	margin-top: 31px;
+	padding-top: 30px;
+	padding-right: 10px;
 }
 body {
 	background-color: #1e345d;
 	max-width: 1366px;
-	border: 1px solid red;
+	/*border: 1px solid black;*/
 	margin: auto;
+	margin-top: 70px;
+}
+hr {
+	width: 90%;
+	background-color: rgb(255, 255, 255);
+}
+span {
+	color: #a2863d;
+}
+summary {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.3;
+}
+summary:hover {
+	cursor: pointer;
+}
+details {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.3;
+}
+a {
+	font-family: "trajan-pro-3";
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: -10px;
+	background-color: rgb(177,198,231);
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 5px;
+	color: #a2863d;
+	border: 3px solid #a2863d;
+	width: auto;
+}
+a:hover {
+	background-color: rgba(69,119,197,1.00);
+	color: rgb(255, 255, 255);
+}
+
+.bosco {
+	color: rgb(35,70,255,1.00);
+}
+.guzman {
+	color: rgb(118, 188, 33);
+}
+.savio {
+	color: rgb(255, 221, 33);
+}
+.siena {
+	color: rgb(245, 51, 63);
+}
